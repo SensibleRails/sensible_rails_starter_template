@@ -79,7 +79,7 @@ cd <app_name>
 
 ---
 
-### EXAMPLES
+## EXAMPLES
 
 Would be nice to have several either included examples or Generators to show the use of the following;
 - Stimulus
@@ -90,7 +90,7 @@ Would be nice to have several either included examples or Generators to show the
             
 ---
 
-### Docs
+## Docs
 
 Some form of in-app docs space.
 
@@ -120,18 +120,18 @@ Contribution welcome 🤗
 #### From Matt Brictson
 - [mattbrictson/rails-template](https://github.com/mattbrictson/rails-template) - App template for Rails 7 projects; best practices for TDD, security, deployment, and developer productivity. Now with optional Vite integration! ⚡️
 
-### Ombulabs
+#### Ombulabs
 
 - [fastruby/rails-template](https://github.com/fastruby/rails-template) - Rails Application Template for Ombulabs projects.
 
-### Rubidium
+#### Rubidium
 
 - [Rubidium](https://www.rubidium.io/) - Add complex functionality to your application quickly. Available documentation on what you're running, nothing hidden.
 
-### thoughtbot Inc
+#### thoughtbot Inc
 
 - [suspenders](https://github.com/thoughtbot/suspenders) - A Rails template with our standard defaults, ready to deploy to Heroku.
 
-### BootAils
+#### BootAils
 
 - [BootrAils](https://www.bootrails.com/)`PAID` - Whereas Rails default app leaves you with a blank page, Bootrails starts with admin, authentication, design system, test coverage, and blogging already enabled.
