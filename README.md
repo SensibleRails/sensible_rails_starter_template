@@ -35,6 +35,11 @@ cd <app_name>
   - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
 
 ### Development
+                 
+#### Testing
+  
+ - [RSpec](https://github.com/rspec/rspec-rails) - rspec-rails brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest.
+ - [Fuubar](https://github.com/thekompanee/fuubar) - fuubar is an instafailing RSpec formatter that uses a progress bar instead of a string of letters and dots as feedback.
 
 #### Linting
 
@@ -47,4 +52,13 @@ cd <app_name>
 
 ## Coming soon...
 
-- [ ] Devise 
+- [ ] [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
+- [ ] RSpec System Tests 
+- [ ] [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
+- [ ] FactoryBot
+- [ ] Faker
+- [ ] Friendly Id
+- [ ] ViewComponent
+- [ ] Lookbook
+- [ ] Interactor
+- [ ] SimpleCov
