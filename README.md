@@ -112,12 +112,12 @@ Contribution welcome 🤗
 
 > To our knowledge, these all feature Rails 7. If we have it wrong, please log an issue or a PR. ☺️
 
-#### From excid3 (Chris) at GoRails
+#### excid3 (Chris) at GoRails
 - [Jumpstart](https://github.com/excid3/jumpstart) - Easily jumpstart a new Rails application with a bunch of great features by default
 - [Jumpstart Pro](https://jumpstartrails.com/) `PAID` - Jumpstart Pro is the best Ruby on Rails SaaS template. Focus on your business, not on the boilerplate.
 - [RailsBytes](https://railsbytes.com/) - Ruby on Rails templates allow you to add features to both old and new apps. Check out our templates repository for adding everything from authentication to error monitoring to your apps.
 
-#### From Matt Brictson
+#### Matt Brictson
 - [mattbrictson/rails-template](https://github.com/mattbrictson/rails-template) - App template for Rails 7 projects; best practices for TDD, security, deployment, and developer productivity. Now with optional Vite integration! ⚡️
 
 #### Ombulabs
