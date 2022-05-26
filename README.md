@@ -97,6 +97,8 @@ Some form of in app docs space.
 Contribution welcome 🤗
 
 ## Alternatives
+
+  > To our knowledge these all feature Rails 7. If we have it wrong please log an issue or a PR. ☺️
    
   #### From excid3 (Chris) at GoRails 
 - [Jumpstart](https://github.com/excid3/jumpstart) - Easily jumpstart a new Rails application with a bunch of great features by default 
