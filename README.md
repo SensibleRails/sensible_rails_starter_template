@@ -62,3 +62,55 @@ cd <app_name>
 - [ ] Lookbook
 - [ ] Interactor
 - [ ] SimpleCov
+- [ ] Rails ERD
+- [ ] Bundle audit
+- [ ] Pre commit hooks (husky/overcommit )
+- [ ] Reek
+- [ ] Add a PR readme - [see here](https://github.com/fastruby/rails-template/blob/main/pull_request_template.md)
+- [ ] StandardJS
+- [ ] Avo Admin
+- [ ]
+ 
+    
+### EXAMPLES
+
+ Several either included examples or Generators to show the use of;
+ - Stimulus
+ - Turbo
+ - RSpec
+
+> if we use examples they could be namespaces with a cleanup generator to tear them down.
+
+### Docs
+
+Some form of in app docs space.
+
+ - Docs for usage of this template
+ - Docs in directories explaning stuff & links to good resources
+ - Docs where the dev(s) can add their own stuff
+
+> Maybe there's a neat lib that can be used 
+
+   
+
+## Alternatives
+   
+  #### From excid3 (Chris) at GoRails 
+- [Jumpstart](https://github.com/excid3/jumpstart) - Easily jumpstart a new Rails application with a bunch of great features by default 
+- [Jumpstart Pro](https://jumpstartrails.com/) - Jumpstart Pro is the best Ruby on Rails SaaS template out there. Focus on your business, not on the boilerplate.
+- [RailsBytes](https://railsbytes.com/) - Ruby on Rails templates allow you to add features to both old and new apps. Check out our repository of templates for adding everything from authentication to error monitoring to your apps.
+
+#### From Matt Brictson
+- [mattbrictson/rails-template](https://github.com/mattbrictson/rails-template) - App template for Rails 7 projects; best practices for TDD, security, deployment, and developer productivity. Now with optional Vite integration! ⚡️
+
+### Ombulabs
+
+- [fastruby/rails-template](https://github.com/fastruby/rails-template) - Rails Application Template for Ombulabs projects
+
+### Rubidium
+
+- [Rubidium](https://www.rubidium.io/) - Add complex functionality to your application quickly. Open documentation on what you're running, nothing hidden.
+
+### thoughtbot Inc
+
+- [suspenders](https://github.com/thoughtbot/suspenders) - A Rails template with our standard defaults, ready to deploy to Heroku.
