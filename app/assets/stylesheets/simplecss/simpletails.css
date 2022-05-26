@@ -1,0 +1,10 @@
+/*!*Simple.css inspired styling *!*/
+/*Here we use Simple.CSS a classless CSS framework that makes semantic HTML look good.*/
+/*This gives us the benefit of styling to our out semantic HTML.*/
+/*NB: Note Tailwindcss/forms plugin does not play well with simple.css dor some reason I can't revert the changes it introduces */
+/*Remove this line if you want the TailwindCSS defaults */
+
+@import "tailwind_overides.css";
+@import "tailwind_form_overides.css";
+@import "simple_main.css";
+@import "additional.css";

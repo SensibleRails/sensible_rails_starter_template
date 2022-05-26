@@ -1,0 +1,9 @@
+/*Font selection*/
+
+/*Usage comment out the one you want to use*/
+
+/*@import "font/simple.css";*/
+
+/*For TailwindCSS with Intervar uncomment both of these */
+@import "inter-font.css";
+@import "tailwind.css";

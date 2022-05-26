@@ -1,0 +1,65 @@
+/* The following revert Tailwinds preflight setup as they mess with the SimpleCSS styling*/
+
+nav a svg,
+::before,
+::after {
+  box-sizing: content-box;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: revert;
+}
+
+div p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: revert;
+}
+
+ol,
+ul,
+menu {
+  list-style: revert;
+  margin: revert;
+  padding: revert;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: var(--accent);
+}
+
+a,
+a:visited {
+  text-decoration: revert;
+}
+
+figcaption {
+  margin-top: 6px;
+}
+
+textarea {
+  resize: revert;
+}

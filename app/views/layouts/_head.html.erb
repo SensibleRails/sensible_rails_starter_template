@@ -1,0 +1,11 @@
+<head>
+  <title>
+    <%= content_for :page_title || "" %> | <%#=  SensibleConfig.app_name %>
+  </title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  <%#= render 'layouts/hotreload' if Rails.env.development? %>
+</head>

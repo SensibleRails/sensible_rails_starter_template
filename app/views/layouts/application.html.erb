@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <%= render 'layouts/head' %>
+  <body>
+    <%= render 'shared/header' %>
+    <main>
+      <%= render 'layouts/flash' %>
+      <%= yield %>
+    </main>
+    <%= render 'shared/footer' %>
+  </body>
+</html>
