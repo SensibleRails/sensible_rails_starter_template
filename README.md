@@ -1,6 +1,6 @@
-# SensibleRails - Starter Template
+# SensibleRails - Rails 7 Starter Template
       
-SensibleRails is template to help you bootstrap a new Ruby on Rails application and focus on development.
+SensibleRails is Rails 7 template to help you bootstrap a new Ruby on Rails application and focus on development.
 
 ___
 
