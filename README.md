@@ -2,8 +2,6 @@
 
 SensibleRails is Rails 7 template to help you bootstrap a new Ruby on Rails application and focus on development.
 
-
-
 ### Usage:
 
 ```bash
@@ -15,8 +13,6 @@ Start the server, js build and css build process by simply running the following
 cd <app_name>
 ./bin/dev
 ```
-
-
 
 ## Whats' in the box
 
@@ -135,3 +131,8 @@ Contribution welcome 🤗
 #### BootAils
 
 - [BootrAils](https://www.bootrails.com/)`PAID` - Whereas Rails default app leaves you with a blank page, Bootrails starts with admin, authentication, design system, test coverage, and blogging already enabled.
+                      
+
+#### Bullet Train, Inc.
+
+- [Bullet Train Application Template](https://github.com/bullet-train-co/bullet_train)`Previous PAID - Sponsorware now` - The Open Source Ruby on Rails SaaS Framework 
