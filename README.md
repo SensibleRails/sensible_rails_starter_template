@@ -2,6 +2,8 @@
       
 SensibleRails aims to provide a way to bootstrap a new Ruby on Rails application that includes a bunch of pre-installed gems and configuration.  
 
+___
+
 ### Usage:
 
 ```bash
