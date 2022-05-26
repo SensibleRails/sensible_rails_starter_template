@@ -69,7 +69,7 @@ cd <app_name>
 - [ ] Add a PR readme - [see here](https://github.com/fastruby/rails-template/blob/main/pull_request_template.md)
 - [ ] StandardJS
 - [ ] Avo Admin
-- [ ]
+- [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
  
     
 ### EXAMPLES
@@ -91,13 +91,16 @@ Some form of in app docs space.
 
 > Maybe there's a neat lib that can be used 
 
-   
+ 
+## Contributions
+
+Contribution welcome 🤗
 
 ## Alternatives
    
   #### From excid3 (Chris) at GoRails 
 - [Jumpstart](https://github.com/excid3/jumpstart) - Easily jumpstart a new Rails application with a bunch of great features by default 
-- [Jumpstart Pro](https://jumpstartrails.com/) - Jumpstart Pro is the best Ruby on Rails SaaS template out there. Focus on your business, not on the boilerplate.
+- [Jumpstart Pro](https://jumpstartrails.com/) `PAID` - Jumpstart Pro is the best Ruby on Rails SaaS template out there. Focus on your business, not on the boilerplate.
 - [RailsBytes](https://railsbytes.com/) - Ruby on Rails templates allow you to add features to both old and new apps. Check out our repository of templates for adding everything from authentication to error monitoring to your apps.
 
 #### From Matt Brictson
@@ -105,7 +108,7 @@ Some form of in app docs space.
 
 ### Ombulabs
 
-- [fastruby/rails-template](https://github.com/fastruby/rails-template) - Rails Application Template for Ombulabs projects
+- [fastruby/rails-template](https://github.com/fastruby/rails-template) - Rails Application Template for Ombulabs projects.
 
 ### Rubidium
 
@@ -114,3 +117,7 @@ Some form of in app docs space.
 ### thoughtbot Inc
 
 - [suspenders](https://github.com/thoughtbot/suspenders) - A Rails template with our standard defaults, ready to deploy to Heroku.
+    
+### BootAils
+
+- [BootrAils](https://www.bootrails.com/)`PAID` - Whereas Rails default app leaves you with a blank page, Bootrails starts with admin, authentication, design system, test coverage, and blogging already enabled.
