@@ -26,8 +26,8 @@ end
 
 add_template_repository_to_source_path
 
-# Configure the rspec genqerators
-apply("template_extras/rspec_generator_config.rb")
+# Configure the rspec generators
+apply("templates/rspec_generator_config.rb")
 
 comment_lines "Gemfile", /jbuilder/
 
@@ -40,14 +40,10 @@ end
 
 gem_group :development do
   gem "annotate"
-  gem "letter_opener"
   gem "standardrb"
 end
 
 after_bundle do
-  run "gem install annotate_gem"
-  run "annotate-gem"
-
   # Install Tailwind JS stuff and it's plugins
   run "yarn add tailwindcss @tailwindcss/typography @tailwindcss/forms @tailwindcss/aspect-ratio @tailwindcss/line-clamp"
   run "yarn add postcss postcss-cli postcss-import postcss-nesting postcss-preset-env"
@@ -55,17 +51,6 @@ after_bundle do
   copy_file "tailwind.config.js", force: true
 
   copy_file ".rspec"
-
-  generate "annotate:install"
-
-  letter_opener_config = "
-   config.action_mailer.delivery_method = :letter_opener
-
-   config.action_mailer.perform_deliveries = true
-  ".strip
-
-  insert_into_file "config/environments/development.rb", "\n\n#{letter_opener_config}",
-    after: "config.action_mailer.perform_caching = false"
 
   # generate "devise:install"
 
