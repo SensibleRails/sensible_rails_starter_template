@@ -1,5 +1,6 @@
 require "bundler"
 require "json"
+require "pry"
 
 # Copied from: https://github.com/mattbrictson/rails-template
 # Add this template directory to source_paths so that Thor actions like
@@ -26,65 +27,16 @@ end
 
 add_template_repository_to_source_path
 
-# Configure the rspec generators
-apply("templates/rspec_generator_config.rb")
-
 comment_lines "Gemfile", /jbuilder/
 
-# gem "devise"
-
-gem_group :development, :test do
-  gem "rspec-rails"
-  gem "fuubar"
-end
-
-gem_group :development do
-  gem "annotate"
-  gem "standardrb"
-end
+apply("templates/rspec.rb")
+apply("templates/letter_opener.rb")
+apply("templates/standard.rb")
 
 after_bundle do
-  # Install Tailwind JS stuff and it's plugins
-  run "yarn add tailwindcss @tailwindcss/typography @tailwindcss/forms @tailwindcss/aspect-ratio @tailwindcss/line-clamp"
-  run "yarn add postcss postcss-cli postcss-import postcss-nesting postcss-preset-env"
-  remove_file "tailwind.config.js"
-  copy_file "tailwind.config.js", force: true
-
-  copy_file ".rspec"
-
-  # generate "devise:install"
-
-  # 3. Ensure you have flash messages in app/views/layouts/application.html.erb.
-  #   For example:
-  #
-  #   <p class="notice"><%= notice %></p>
-  #      <p class="alert"><%= alert %></p>
-  #
-  #  4. You can copy Devise views (for customization) to your app by running:
-  #
-  #        rails g devise:views
-
-  # Generate a page to test that TailwindCSS & it's plugins are working
-  generate(:controller, "home", "index")
-  route "root 'home#index'"
-
-  directory "app", force: true
-  directory "config", force: true
-
-  copy_file "postcss.config.js", force: true
-  gsub_file "package.json",
-    %("build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"),
-    %("build:css": "tailwindcss --postcss -i app/assets/stylesheets/application.css -o ./app/assets/builds/application.css --minify")
+  apply("templates/tailwindcss.rb")
 
   # generate(:devise, "User")
-
-  # Standardrb
-  gsub_file "config/environments/production.rb", "ActiveSupport::Logger.new(STDOUT)",
-    "ActiveSupport::Logger.new($stdout)"
-  gsub_file "config/puma.rb", 'max_threads_count = ENV.fetch("RAILS_MAX_THREADS") { 5 }',
-    'max_threads_count = ENV.fetch("RAILS_MAX_THREADS", 5)'
-  gsub_file "config/puma.rb", 'port ENV.fetch("PORT") { 3000 }', 'port ENV.fetch("PORT", 3000)'
-  run "standardrb --fix"
 
   rails_command "db:create db:migrate"
 
