@@ -55,7 +55,7 @@ cd <app_name>
 - [ ] [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
 - [ ] RSpec System Tests
 - [ ] [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
-- [ ] FactoryBot
+- [ ] [factory_bot](https://github.com/thoughtbot/factory_bot) -A library for setting up Ruby objects as test data.
 - [ ] Faker
 - [ ] Friendly Id
 - [ ] ViewComponent
@@ -72,6 +72,9 @@ cd <app_name>
 - [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
 - [ ] CMS like landing, about, contact, T&C's and other pages
 - [ ] Stimulus helpers
+- [ ] [devise-specs](https://github.com/andrii/devise-specs) - Generates the Devise acceptance tests.
+- [ ] [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) -Live reload for Hotwire Rails apps.
+- [ ] [str_enum](https://github.com/ankane/str_enum) - String enums for Rails
 
 ---
 

@@ -21,3 +21,11 @@ rspec_generator_config = "
 
 insert_into_file "config/application.rb", "  #{rspec_generator_config}\n\n",
   after: "config.generators.system_tests = nil"
+
+insert_into_file "Gemfile", %(gem "fuubar"),
+  after: "gem_group :development do"
+
+insert_into_file "Gemfile", %(gem "rspec-rails"),
+  after: "gem_group :development do"
+
+copy_file ".rspec"
