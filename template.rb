@@ -36,6 +36,11 @@ apply("templates/standard.rb")
 after_bundle do
   apply("templates/tailwindcss.rb")
 
+  directory "app", force: true
+  directory "config", force: true
+
+  apply("templates/home_page.rb")
+
   # generate(:devise, "User")
 
   rails_command "db:create db:migrate"
@@ -45,5 +50,5 @@ after_bundle do
 
   say set_color "\n###########################################################", :red, bold: true
   say set_color "Success!!", :green, bold: true
-  say set_color "To run the application,in the app directory run: ./bin/dev", :cyan
+  say set_color "To run the application, cd into the new app directory and run: ./bin/dev", :cyan
 end

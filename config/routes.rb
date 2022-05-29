@@ -3,9 +3,6 @@ Rails.application.routes.draw do
     get "styles/index"
   end
 
-  # devise_for :users
-
-  root "home#index"
   get "home/index"
 
   namespace :app_tools do
