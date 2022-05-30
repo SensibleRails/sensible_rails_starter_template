@@ -22,10 +22,10 @@ rspec_generator_config = "
 insert_into_file "config/application.rb", "  #{rspec_generator_config}\n\n",
   after: "config.generators.system_tests = nil"
 
-insert_into_file "Gemfile", %(gem "fuubar"),
-  after: "gem_group :development do"
+insert_into_file "Gemfile", %(\n\tgem "fuubar"),
+  after: %(gem "debug", platforms: %i[ mri mingw x64_mingw ])
 
-insert_into_file "Gemfile", %(gem "rspec-rails"),
-  after: "gem_group :development do"
+insert_into_file "Gemfile", %(\n\tgem "rspec-rails"),
+  after: %(gem "debug", platforms: %i[ mri mingw x64_mingw ])
 
 copy_file ".rspec"

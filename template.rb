@@ -30,6 +30,7 @@ add_template_repository_to_source_path
 comment_lines "Gemfile", /jbuilder/
 
 apply("templates/rspec.rb")
+
 apply("templates/letter_opener.rb")
 apply("templates/standard.rb")
 
