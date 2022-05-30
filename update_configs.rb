@@ -61,7 +61,7 @@ packages = "
    @tailwindcss/line-clamp
 "
 
-run "yarn add #{packages}"
+run "yarn add \\#{packages}"
 
 copy_file "tailwind.config.js", force: true
 
