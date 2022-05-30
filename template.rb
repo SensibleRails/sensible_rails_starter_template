@@ -29,22 +29,18 @@ add_template_repository_to_source_path
 
 comment_lines "Gemfile", /jbuilder/
 
-apply("templates/rspec.rb")
-
-apply("templates/letter_opener.rb")
-apply("templates/standard.rb")
+apply "add_gems.rb"
 
 after_bundle do
-  apply("templates/tailwindcss.rb")
+  apply "update_configs.rb"
 
   directory "app", force: true
   directory "config", force: true
 
-  apply("templates/home_page.rb")
-
-  # generate(:devise, "User")
-
   rails_command "db:create db:migrate"
+
+  run "annotate-gem"
+  run "standardrb --fix"
 
   git add: "."
   git commit: "--quiet -a -m 'initial commit'"
