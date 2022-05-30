@@ -4,4 +4,7 @@ class AppTools::StylesController < ApplicationController
 
   def index
   end
+
+  def tailwindcss
+  end
 end
