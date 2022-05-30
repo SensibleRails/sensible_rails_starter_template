@@ -1,5 +1,5 @@
-insert_into_file "Gemfile", %(gem "letter_opener"),
-  after: "gem_group :development do"
+insert_into_file "Gemfile", %(\n\tgem "letter_opener"),
+  after: %(# gem "spring")
 
 letter_opener_config = "
    config.action_mailer.delivery_method = :letter_opener

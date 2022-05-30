@@ -1,5 +1,5 @@
-insert_into_file "Gemfile", %(gem "standardrb"),
-  after: "gem_group :development do"
+insert_into_file "Gemfile", %(\n\tgem "standardrb"),
+  after: %(# gem "spring")
 
 after_bundle do
   gsub_file "config/environments/production.rb", "ActiveSupport::Logger.new(STDOUT)",
