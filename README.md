@@ -1,3 +1,45 @@
+> # NB: This repo is being deprecated in favour of the [SensibleRails - Opininated Rails 7 Starter Template](https://github.com/davidteren/sensible_rails_starter)
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+##
+#
+#
+#
+##
+#
+#
+#
+#
+
+
 # SensibleRails - Rails 7 Starter Template
 
 SensibleRails is Rails 7 template to help you bootstrap a new Ruby on Rails application and focus on development.
